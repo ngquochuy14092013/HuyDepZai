@@ -71,3 +71,36 @@ Tabs.Main1:AddButton({
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/GreenZ-Hub/refs/heads/main/KaitunDoughKing.lua"))()
   end
 })
+
+Tabs.Main1:AddButton({
+    Title="Rubu",
+    Description="",
+    Callback=function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RuBuV4.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Maru Free",
+    Description="",
+    Callback=function()
+     getgenv().Team = "Marines"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="W azure",
+    Description="",
+    Callback=function()
+     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Hoho Hub",
+    Description="",
+    Callback=function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+})
